@@ -1,10 +1,11 @@
 <!DOCTYPE feed [
 <!ELEMENT feed (title, link, enrty)>
-<!ELEMENT enrty (g:id, g:title, g:description, g:link, g:image_link, g:brand, g:condition, g:availability, g:price)>
+<!ELEMENT enrty (g:id, g:mpn, g:title, g:description, g:link, g:image_link, g:brand, g:condition, g:availability, g:price)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT enrty (#PCDATA)>
 <!ELEMENT g:id (#PCDATA)>
+<!ELEMENT g:mpn (#PCDATA)>
 <!ELEMENT g:title (#PCDATA)>
 <!ELEMENT g:description (#PCDATA)>
 <!ELEMENT g:link (#PCDATA)>
